@@ -741,6 +741,13 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.0.0":
+  version "7.1.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.1.2.tgz#81c89935f4647706fc54541145e6b4ecfef4b8e3"
+  integrity sha512-Y3SCjmhSupzFB6wcv1KmmFucH6gDVnI30WjOcicV10ju0cZjak3Jcs67YLIXBrmZYw1xCrVeJPbycFwrqNyxpg==
+  dependencies:
+    regenerator-runtime "^0.12.0"
+
 "@babel/template@^7.1.0", "@babel/template@^7.1.2":
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.1.2.tgz#090484a574fef5a2d2d7726a674eceda5c5b5644"
@@ -1148,10 +1155,10 @@ ansi-styles@^3.2.0, ansi-styles@^3.2.1:
   dependencies:
     color-convert "^1.9.0"
 
-antd-mobile-rn-scripts@2.1.3:
-  version "2.1.3"
-  resolved "https://registry.yarnpkg.com/antd-mobile-rn-scripts/-/antd-mobile-rn-scripts-2.1.3.tgz#237508309f2d6764a8ea0bf3df09747fa3a2f244"
-  integrity sha512-Y7GOSBF1zb23buY4xYmTUeVaCQKPHsbPZC7D0EdwZ0ogX9NG5jFs6hRLFLvoZUPCHwCYKNqDchkp99D9NWi2yA==
+antd-mobile-rn-scripts@2.1.5:
+  version "2.1.5"
+  resolved "https://registry.yarnpkg.com/antd-mobile-rn-scripts/-/antd-mobile-rn-scripts-2.1.5.tgz#5afe76e5d5efeed02fbe8a79c40cc534bf2b2e0a"
+  integrity sha512-KjUoCHiwgtpEcsXK51jF7vE+XhntT9K4zXoTWBuCtvpfMZOCsEKfX5HtvluUayMO2aSS1Uit/DfqeQoFQyBZOA==
   dependencies:
     "@babel/core" "7.1.0"
     "@svgr/webpack" "2.4.1"
@@ -1159,6 +1166,7 @@ antd-mobile-rn-scripts@2.1.3:
     babel-eslint "9.0.0"
     babel-jest "23.6.0"
     babel-loader "8.0.4"
+    babel-plugin-import "^1.11.0"
     babel-plugin-named-asset-import "^0.2.3"
     babel-preset-react-app "^6.1.0"
     bfj "6.1.1"
@@ -1595,6 +1603,14 @@ babel-plugin-dynamic-import-node@2.2.0:
   integrity sha512-fP899ELUnTaBcIzmrW7nniyqqdYWrWuJUyPWHxFa/c7r7hS6KC8FscNfLlBNIoPSc55kYMGEEKjPjJGCLbE1qA==
   dependencies:
     object.assign "^4.1.0"
+
+babel-plugin-import@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/babel-plugin-import/-/babel-plugin-import-1.11.0.tgz#78ac908e6b225206babb734e19eae5f78d6d1035"
+  integrity sha512-de9dWdU1YjmWRPYurlHRKD2hTd24z0bIQ0/JgyXqLMXML+TsvEkVhtqzOsNtu9MmCuvwBiTTTjZBbZXA1Xu7TQ==
+  dependencies:
+    "@babel/helper-module-imports" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
 
 babel-plugin-istanbul@^4.1.6:
   version "4.1.6"
